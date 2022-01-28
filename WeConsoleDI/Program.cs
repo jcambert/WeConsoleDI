@@ -32,7 +32,6 @@ partial class  Program
     public Program(IOptions<ProgramOptions> o) => this._options = o.Value;
     public void Run(string []args)
     {
-        Console.WriteLine("HELLO");
-
+        //DO THE JOB HERE
     }
 }
